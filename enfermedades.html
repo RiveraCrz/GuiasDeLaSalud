@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Guías De La Salud</title>
+    <link href="assets/images//img/f08ecb7fc75dc1d8c64da2b15330e3f3.ico/favicon.ico" rel="shortcut icon">
+
+    <!-- Additional CSS Files -->
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/guias-saludables.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="" >
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a id="logoGuia" href="index.php" class="logo" >
+                            <img src="assets/images/GDLS.png" alt="Guias logo" style="width: 140px; height: 90px;">
+                            
+                        </a>
+                        
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.php" >Inicio</a></li>
+                            <!--<li class="scroll-to-section"><a href="#about">Información Médica</a></li>-->
+                           	<li class="submenu">
+                                <a href="#about" class="active">Información Médica</a>
+                                <ul>
+                                    <li><a href="cancer.html">Cáncer</a></li>
+                                    <li><a href="farmacos.html">Fármacos/Sustancias</a></li>
+                                    <li><a href="index.php#menu">Vida Saludable</a></li>
+                                    <li><a href="enfermedades.html">Enfermedades</a></li>
+                                    <li><a href="error.html" target="_blank">Fundamentos</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="scroll-to-section">
+                                <a href="index.php#chefs">Recursos</a>
+                            </li>
+                            <li class="scroll-to-section">
+                                <a href="nosotros.php">Nosotros</a>
+                            </li>
+                            <li class="scroll-to-section"><a href="index.php#reservation">Contáctanos</a></li> 
+
+                            <li class="scroll-to-section ml-0 mr-0">
+                                <div id="formId" class="form-inline ml-0 mr-0" >
+                                    <input id="searchInputId" class="form-control search ml-0 mr-0 searchclass" type="search" placeholder="Buscar" aria-label="Search" style="width: 10rem;" onkeyup="SearchList();">
+                                    
+                                    <button id="botonSearchId" class="btn color ml-0 mr-0" type="button" onclick="SearchList();"><i class="fa fa-search"></i></button>
+                                </div>
+                            </li>
+                            <li class="scroll-to-section">
+                                    <a href="login-form.php">
+                                    <div id="singId" class="sing mr-0">
+                                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                                    </div>
+                                    </a>
+                            </li>
+                            
+                        </ul>
+                        
+                        <a class='menu-trigger'>
+                            <span>MEDICINA</span>
+                        </a>
+                        
+                        <!-- ***** Menu End ***** -->
+                        
+                    </nav>
+                   
+                        <div class="row flex-column align-items-center bg-light">
+                            <ul id="listaId" class="list-group" hidden>
+                                <li><a name="ResultId" href="#hepatitis">Hepatitis</a></li>
+                                <li><a name="ResultId" href="#vih" >VIH/SIDA</a></li>
+                                <li><a name="ResultId" href="#hipotiroidismo" >Hipotiroidismo</a></li>
+                                <li><a name="ResultId" href="#tratamiento" >Tratamiento</a></li>
+                                <li><a name="ResultId" href="#sintomas" >Sintomas</a></li>
+                                <li><a name="ResultId" href="index.php#tabs-1" >Noticias</a></li>
+                                <li><a name="ResultId" href="index.php#tabs-2" >Modelos3D</a></li>
+                                <li><a name="ResultId" href="index.php#tabs-3" >Tests</a></li>
+                                <li><a name="ResultId" href="farmacos.html" target="_blank" >Fármacos</a></li>
+                                <li><a name="ResultId" href="login-form.php" >IniciarSesión</a></li>
+                                <li><a name="ResultId" href="index.php#contact">Contactanos</a></li>
+                            </ul>
+                        </div>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </header>
+    
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6 >Enfermedades</h6>
+                            <h2>¿Cómo prevenirlo?</h2>
+                        </div>
+                        <p style="text-align: justify;">Hay miles de enfermedades distintas que pueden afectar a nuestro organismo y es totalmente normal, pues el cuerpo humano es extraordinario: conforma un perfecto engranaje de muchos órganos y tejidos actuando en sinergia.<br>
+                        Llegados a este punto de la oración, a lo mejor algo te suena un poco raro. Si el cuerpo humano es una máquina tan perfecta, ¿por qué existen tantas enfermedades? Pues precisamente en su riqueza de estructuras radica que puedan existir esta amplia cantidad de patologías.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-content">
+                        <div class="thumb">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/93AC-KjZbhQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 4rem;">
+            <div class="row" id="hepatitis">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h6>Hepatitis</h6>
+                        <h2>Información Detallada</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ml-2 mr-2">
+                
+                <p class="text-justify mb-2">
+                    Las hepatitis virales representan una elevada carga de enfermedad y mortalidad a nivel mundial. Se estima que el 57% de los casos de cirrosis hepática y el 78% de los casos de cáncer primario de hígado son debidos a infecciones por los virus de la hepatitis B o C. Reconociendo el importante problema de salud pública que representan las hepatitis, en 2010, la 63a Asamblea Mundial de la Salud designó el 28 de julio como el Día Mundial contra la Hepatitis y solicitó una respuesta integral en la lucha contra las hepatitis. Desde entonces, la OPS y la OMS se han movilizado para unir esfuerzos y establecer estrategias para combatir la hepatitis tanto a nivel global como regional.
+                </p>
+
+                <img class="img-fluid" src="assets/images/hepatitis.jpg" alt="hepatitis">
+            </div>
+
+            <div class="row ml-2 mr-2 mt-2">
+                <h3>Síntomas</h3>
+                <p class="text-justify mb-2">
+                    Muchas personas con hepatitis A, B, C, D o E tienen solo síntomas leves o ningún síntoma en absoluto. Sin embargo, cada forma del virus puede desencadenar síntomas más graves. Los síntomas de las hepatitis A, B y C pueden incluir fiebre, malestar, pérdida del apetito, diarrea, náuseas, malestar abdominal, orina oscura e ictericia (coloración amarillenta de la piel y la esclerótica ocular). En algunos casos, el virus también puede causar una infección crónica del hígado que, ulteriormente, puede evolucionar hacia una cirrosis (cicatrices permanentes en el hígado) o cáncer de hígado. Esos pacientes corren riesgo de muerte. <br>
+                    La hepatitis D solo se desarrolla en personas infectadas previamente con hepatitis B; no obstante, la infección doble con los tipos B y D puede desarrollar una forma más grave y dar lugar a peores resultados sanitarios, entre ellos una evolución más rápida de la cirrosis. El desarrollo de hepatitis D crónica es raro. <br>
+                    La hepatitis E comienza con fiebre leve, disminución del apetito, náuseas y vómitos durante varios días. Algunas personas también pueden sufrir dolor abdominal, escozor (sin lesiones cutáneas), erupción en la piel o dolor articular. También pueden experimentar ictericia, orina oscura y heces pálidas, así como un hígado levemente agrandado y blando (hepatomegalia) y, en ocasiones, insuficiencia hepática aguda.
+                </p>
+            </div>
+
+            <div class="row ml-2 mr-2" id="tratamiento">
+                <h3>Tratamiento</h3>
+                <p class="text-justify mb-2">
+                    Existen vacunas seguras y eficaces disponibles para prevenir la infección con el virus de la hepatitis B. Esas vacunas también previenen el desarrollo de la hepatitis D y, aplicada en el momento del parto, reduce enormemente el riesgo de transmisión de la madre al niño. La infección crónica de tipo B se puede tratar con agentes antivirales. El tratamiento puede retrasar la previamente de la cirrosis, reducir la incidencia del cáncer de hígado y mejorar la supervivencia a largo plazo. <br>
+                    Solo una parte de las personas con infección crónica por hepatitis B necesitarán tratamiento. También existe una vacuna que previene infecciones por hepatitis E, aunque en la actualidad no está ampliamente disponible. No hay tratamientos específicos para las hepatitis B y E, que por lo general no suelen requerir hospitalización. <br>
+                    El virus de la hepatitis C puede provocar enfermedad aguda y crónica. Algunas personas se recuperan por sí solas; otras desarrollan una infección o diferentes complicaciones que ponen en peligro sus vidas, por ejemplo, cirrosis o cáncer. No hay vacunas para la hepatitis C. Los medicamentos antivirales pueden curar más del 95% de los casos de hepatitis C, con lo que se reduce el riesgo de defunción por cirrosis y cáncer del hígado, pero el acceso a los medios diagnósticos y al tratamiento sigue siendo limitado. <br>
+                    El virus de la hepatitis A es muy común en países de ingresos bajos y medianos debido a las limitaciones de acceso a fuentes fiables de agua potable y el mayor riesgo de contaminación alimentaria. Existe una vacuna disponible para prevenir la hepatitis A.
+                </p>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 4rem;">
+            <div class="row" id="vih">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h6>VIH/SIDA</h6>
+                        <h2>¿Qué es el VIH y el SIDA?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ml-2 mr-2">
+                
+                <p class="text-justify mb-2">
+                    VIH significa virus de inmunodeficiencia humana. Daña su sistema inmunitario al destruir un tipo de glóbulo blanco que ayuda a su cuerpo a combatir las infecciones. Esto lo pone en riesgo de tener otras infecciones y enfermedades. <br>
+                </p>
+
+                <p class="text-justify">
+                    Sida significa síndrome de inmunodeficiencia adquirida. Es la etapa final de la infección por VIH. Ocurre cuando el sistema inmunitario del cuerpo está muy dañado por el virus. No todas las personas con VIH desarrollan sida. <br> <br>
+
+                    El VIH se propaga a través de ciertos fluidos corporales de una persona con VIH. Esto puede suceder:
+                </p>
+
+                <div class="list-group mb-3">
+                    <div class="list-group-item list-group-item-action list-group-item-danger">
+                        <p>
+                            •	Al tener relaciones sexuales vaginales o anales sin protección con una persona que tiene el VIH. 
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-danger">
+                        <p>
+                            •	Sin protección significa no usar condones o medicamentos para tratar o prevenir el VIH. Esta es la forma más común de propagación
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-danger">
+                        <p>
+                            •	Compartiendo agujas para el consumo de drogas
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-danger">
+                        <p>
+                            •	A través del contacto con la sangre de una persona que tiene VIH.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-danger">
+                        <p>
+                            •	De madre a hijo durante el embarazo, parto o lactancia.
+                        </p>
+                    </div>
+                </div>
+
+                <h6 id="sintomas">¿Cuáles son los síntomas?</h6>
+                <p class="text-justify mb-2">
+                    Los primeros signos de infección por VIH pueden ser síntomas similares a los de la gripe:<br>
+                </p>
+
+                <div class="list-group mb-3">
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Fiebre.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Escalofríos.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Sarpullido.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Sudoración nocturna (transpirar mucho durante la noche).
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Dolor muscular.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Dolor de garganta.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Fatiga.
+                        </p>
+                    </div>
+                    <div class="list-group-item list-group-item-action list-group-item-info">
+                        <p>
+                            •	Ganglios linfáticos inflamados.
+                        </p>
+                    </div>
+                </div>
+
+                <p class="text-justify mb-3">
+                    Si la infección no se trata, se convierte en una infección crónica por el VIH. A menudo, no hay síntomas durante esta etapa. Si no se trata, eventualmente el virus debilitará el sistema inmunitario de su cuerpo. Entonces la infección avanzará a sida. Ésta es la última etapa de la infección por VIH. Debido a que su sistema inmunitario está gravemente dañado, su cuerpo no puede combatir otras infecciones, llamadas infecciones oportunistas. Estas son infecciones que ocurren con mayor frecuencia o son más graves en personas que tienen sistemas inmunitarios debilitados.
+                </p>
+                    <div class="align-items-center">
+                        <img class="img-fluid w-75 h-75" src="assets/images/vih.jpg" alt="vih">
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 4rem;">
+            <div class="row" id="hipotiroidismo">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h6>Hipotiroidismo</h6>
+                        <h2>Información Detallada</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-justify ml-2 mr-2">
+                <p>
+                    El hipotiroidismo es el cuadro clínico que se deriva de una reducida actividad de la glándula tiroides. Las hormonas tiroideas (T4 y T3), cuya síntesis está regulada por la TSH secretada en la hipófisis, tienen como misión fundamental regular las reacciones metabólicas del organismo. <br>
+                </p>
+                <p>
+                    Cuando las hormonas tiroideas disminuyen, como ocurre en el hipotiroidismo, la secreción de TSH aumenta en un intento de conseguir que el tiroides trabaje al máximo para recuperar el nivel normal de hormonas tiroideas, situación que no se consigue cuando el hipotiroidismo se encuentra ya establecido. <br>
+                </p>
+                <h6 class="mt-2 mb-2">¿Cuáles son las causas del hipotiroidismo?</h6>
+                <p>
+                    La causa más frecuente de hipotiroidismo es la tiroiditis de Hashimoto que da lugar a una destrucción progresiva del tiroides como consecuencia de fenómenos de autoinmunidad. <br>
+
+                    Es como si el organismo no reconociera al tiroides como propio, por lo que procede a su destrucción por medio de anticuerpos que produce el sistema inmune. Es más frecuente en mujeres a partir de los 40 años, aunque puede darse en otras edades y en varones. <br>
+                </p>
+
+                <h6 class="mt-2 mb-2">¿Quién puede padecer hipotiroidismo?</h6>
+                <p>
+                    Al igual que el resto de las enfermedades del tiroides, el hipotiroidismo es más frecuente en el sexo femenino. Afecta al 2% de las mujeres adultas y al 0,1-0,2% de los hombres. <br>
+
+                    Es a partir de los 40-50 años cuando las mujeres tienden a desarrollar con más frecuencia hipotiroidismo de causa autoinmune (tiroiditis de Hashimoto). El periodo postparto es igualmente propenso a la aparición de este problema. <br>
+
+                    La cirugía de tiroides y la aplicación de yodo radioactivo representan situaciones de riesgo para el desarrollo de hipotiroidismo, lo que obliga a controlar evolutivamente la función tiroidea en estos casos.
+                </p>
+                <h6 class="mt-2 mb-2">¿Cómo se diagnostica el hipotiroidismo?</h6>
+                <p>
+                    La determinación de TSH es el parámetro más sensible para el diagnóstico del hipotiroidismo. Su elevación es indicativa de que la función del tiroides es insuficiente. Este fenómeno se produce antes de que comiencen a descender en la sangre las concentraciones de hormonas tiroideas. <br>
+                    Generalmente, en el hipotiroidismo establecido, además de la elevación de TSH, se produce un descenso de T4. El nivel de T3 con frecuencia se encuentra dentro de la normalidad. Puede acompañarse de una determinación de T4 y de anticuerpos antitiroideos si se desea conocer si la causa se debe a fenómenos de autoinmunidad. <br>
+                    Cuando existe sospecha de alteraciones en el desarrollo de la glándula o de deficiencia enzimática, puede ser útil obtener una gammagrafía tiroidea. Si se confirma un diagnóstico de hipotiroidismo de causa autoinmune, es habitual evaluar la asociación de alteraciones en otras glándulas como las suprarrenales, paratiroides o gónadas. <br>
+                </p>
+                    <div class="flex-column align-items-center mt-2">
+                        <img class="img-fluid w-auto h-auto" src="assets/images/hiper.jpg" alt="hiper">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><a href="https://www.facebook.com/profile.php?id=100090464780736" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/guiasdelasaludmx/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/guiasdelasalud" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <a href="index.php"><img src="assets/images/img/f08ecb7fc75dc1d8c64da2b15330e3f3.ico/android-icon-36x36.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="left-text-content">
+                        <p>© Copyright Guías Médicas.
+                        
+                        <br>Design: UTCAM Alumnos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });

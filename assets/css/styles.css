@@ -1,0 +1,101 @@
+:root{
+    --red:#ff2e63;
+    --black:#252a34;
+    --blue:#08d9d6;
+    --white:#eaeaea;
+    --title:35px;
+    --text:19px;
+ }
+
+ /** Barra de busqueda **/
+ .buscar {
+    position: relative;
+    padding: 4px;
+  }
+  
+  .buscar input {
+    width: 0;
+    height: 28px;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 25px;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .btns {
+    width: 40px;
+    height: 40px;
+
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #ff2e63;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 45%;
+    cursor: pointer;
+  }
+  
+  .buscar:hover input {
+    width: auto;
+  }
+  
+  .buscar input:focus {
+    width: auto;
+  }
+
+  .lefbtn {
+    position: static;
+  }
+
+  .searchbtn input {
+    height: 28px;
+    font-size: 13px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 25px;
+  }
+  .searchbtn:hover input {
+    width: 150px;
+    
+  }
+  .searchbtn input:focus {
+    width: 150px;
+    
+  }
+
+  .sing {
+    width: 40px;
+    height: 40px;
+
+    top: 0;
+    right: 0;
+    background: #ff2e63;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 45%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 767px) { 
+     .sing {
+      position: absolute;
+      margin-top: 0.4rem;
+     }
+    .btns {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  .btn:hover {
+    background: #e7174b;
+    color: white;
+  }
+  /** Barra de busqueda **/
