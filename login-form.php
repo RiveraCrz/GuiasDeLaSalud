@@ -40,11 +40,10 @@
 
     <body>
       <section class="section" id="about">
-        <div class="container">
-        <div class="modal-body">
-          <div class="container w-50">
-          <h5 class="modal-title" id="exampleModalLongTitle">Formulario de Inicio de Sesión</h5>
-                <form action="login.php" method="post">
+        <div class="container mb-0 mt-0">
+          <div class="container mb-0 mt-0 w-50">
+          <h5>Formulario de Inicio de Sesión</h5>
+                <form class="mt-0" action="login.php" method="post">
                     <?php if (isset($_GET['error'])) { ?>
                         <div class="alert alert-danger" role="alert">
                             <?php echo $_GET['error']; ?>
@@ -91,7 +90,6 @@
               <button type="button" class="btn btn-light" data-toggle="modal" data-target="#RecuperarPass" onclick="ValidateInputsEmails();">¿Olvidaste tu contraseña?</button>
               
             </div>
-          </div>
           
         </div>
       </section>
@@ -133,7 +131,7 @@
         </div>
       
 
-    <footer class="mt-5">
+    <footer class="mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-xs-12">

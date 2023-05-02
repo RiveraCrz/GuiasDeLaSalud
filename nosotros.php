@@ -63,20 +63,13 @@
                                 </ul>
                             </li>
 
-                            <li class="scroll-to-section"><a href="#menu">Vida Saludable</a></li>
-
-                            <li class="submenu">
-                                <a href="#chefs">Recursos</a>
-                                <ul>
-                                    <li><a href="index.php#NoticiasId">Noticias</a></li>
-                                    <li><a href="index.php#Modelos3DId">Modelos 3D</a></li>
-                                    <li><a href="index.php#TestId">Tests</a></li>
-                                </ul>
+                            <li class="scroll-to-section">
+                                <a href="index.php#chefs">Recursos</a>
                             </li>
-                            <li class="scroll-to-section active">
-                                <a href="#">Nosotros</a>
+                            <li class="scroll-to-section">
+                                <a class="active" href="#">Nosotros</a>
                             </li>
-                            <li class="scroll-to-section"><a href="#reservation">Contáctanos</a></li> 
+                            <li class="scroll-to-section"><a href="index.php#reservation">Contáctanos</a></li> 
                             <li id="btnBuscar" class="scroll-to-section" hidden="true">
                                 <a href="#">
                                     <div id="searchId" class="buscar" hidden="true">
@@ -133,49 +126,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="section-heading">
-                      
-                        <h3>OBJETIVO</h3>
-                    </div>
-                </div>
-                <p class="text-justify">
-                    La información sobre la salud es un derecho universal, y que cada persona tiene derecho a información médica precisa, accesible y utilizable. Y creemos que tenemos la responsabilidad de proteger, preservar y compartir la mejor información médica actualizada para posibilitar decisiones más informadas. 
-                </p>
-            </div>
-        </div>
-
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="section-heading">
-                      
-                        <h3>MISION</h3>
-                    </div>
-                </div>
-                <p class="text-justify">
-                    El compromiso más profundo con el acceso a la información médica en todo el mundo y para mejorar la salud general de las personas.  
-                </p>
-            </div>
-        </div>
-
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="section-heading">
-                      
-                        <h3>VALORES</h3>
-                    </div>
-                </div>
-                <h5 class="mt-1">Sencillez: <p class="text-justify">facilita la comprensión de otros puntos de vista. Reduce o termina con esa necesidad de poseer la verdad, de imponérsela a los demás o de lograr que todos piensen de manera uniforme.</p></h5>
-
-                <h5 class="mt-1">Comodidad: <p class="text-justify">Un diseño estridente con demasiado movimiento muy recargado no será cómodo a la vista de los visitantes.</p></h5>
-
-                <h5 class="mt-1">Efectividad: <p class="text-justify">Permitir que encuentren rápidamente lo que busca se convierte en el mejor aliciente para seguir visitando la página.</p></h5>
             </div>
         </div>
         

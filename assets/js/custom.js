@@ -241,16 +241,16 @@
 		var a = document.getElementById('logoGuia');
 
 		var form = document.getElementById('formId');
-		var boton = document.getElementById('botonSearchId');
+		/*var boton = document.getElementById('botonSearchId');*/
 		if(result < 700){
 			a.classList.remove('ml-5');
 			form.classList.remove('form-inline');
-			boton.classList.add('form-control');
+			/*boton.classList.add('form-control');*/
 			ChangedSizeModels();
 		}else{
 			a.classList.add('ml-3');
 			form.classList.add('form-inline');
-			boton.classList.remove('form-control');
+			/*boton.classList.remove('form-control');*/
 		}
 		
 		

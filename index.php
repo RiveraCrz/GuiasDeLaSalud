@@ -47,7 +47,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
     </div>  
     <!-- ***** Preloader End ***** -->
     
-    
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="" >
@@ -85,9 +84,9 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <li class="scroll-to-section"><a href="#reservation">Contáctanos</a></li> 
                             <li class="scroll-to-section ml-0 mr-0">
                                 <div id="formId" class="form-inline ml-0 mr-0" >
-                                    <input id="searchInputId" class="form-control search ml-0 mr-0 searchclass" type="search" placeholder="Buscar" aria-label="Search" style="width: 10rem;" onkeyup="SearchList();">
+                                    <input id="searchInputId" class="form-control search mt-1 ml-0 mr-0 searchclass" type="search" placeholder="Buscar" aria-label="Search" style="width: 10rem;" onkeyup="SearchList();">
                                     
-                                    <button id="botonSearchId" class="btn color ml-0 mr-0" type="button" onclick="SearchList();"><i class="fa fa-search"></i></button>
+                                    <!--<button id="botonSearchId" class="btn color ml-0 mr-0" type="button" onclick="SearchList();"><i class="fa fa-search"></i></button>-->
                                 </div>
                             </li>
                             <?php if (isset($_GET['success'])) { ?>                     
@@ -210,7 +209,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
         </div>
     </div>
     <!-- ***** Main Banner Area End ***** -->
-
     <!-- ***** About Area Starts ***** -->
     <section class="section" id="about">
         <div class="container">
@@ -252,7 +250,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
         </div>
     </section>
     <!-- ***** About Area Ends ***** -->
-
     <!-- ***** Menu Area Starts ***** -->
     <section class="section" id="menu">
         <div class="container mb-5">
@@ -285,9 +282,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <div class='info'>
                               <h1 class='title'>Dieta equilibrada</h1>
                               <p class='description text-justify'>una alimentación saludable se rige por incluir todos los alimentos contemplados en la pirámide nutricional, pero en las proporciones adecuadas y en la cantidad suficiente para mantener las necesidades nutricionales.</p>
-                              <!--<div class="main-text-button">
-                                  <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                              </div>-->
                             </div>
                         </div>
                     </div>
@@ -297,9 +291,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <div class='info'>
                               <h1 class='title'>Hábitos tóxicos</h1>
                               <p class='description text-justify'>el tabaco, el alcohol y las drogas inciden de forma muy negativa sobre la salud. La única tolerancia se refiere exclusivamente al vino o la cerveza, de los que incluso se recomienda el consumo del equivalente a una copa diaria.</p>
-                              <!--<div class="main-text-button">
-                                  <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                              </div>-->
                             </div>
                         </div>
                     </div>
@@ -309,9 +300,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <div class='info'>
                               <h1 class='title'>Ejercicio físico</h1>
                               <p class='description text-justify'>las recomendaciones generales determinan unos 30 minutos diarios de actividad física, siendo suficiente caminar a paso rápido durante este tiempo, de igual manera el ejericio sexual, cardiovascular entre otros.</p>
-                              <!--<div class="main-text-button">
-                                  <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                              </div>-->
                             </div>
                         </div>
                     </div>
@@ -321,9 +309,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <div class='info'>
                               <h1 class='title'>Higiene</h1>
                               <p class='description text-justify'>una higiene adecuada evita muchos problemas de salud: desde infecciones a problemas dentales o dermatológicos. El concepto de higiene no sólo se refiere al aseo y limpieza del cuerpo, sino que afecta también al ámbito doméstico.</p>
-                              <!--<div class="main-text-button">
-                                  <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                              </div>-->
                             </div>
                         </div>
                     </div>
@@ -333,9 +318,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <div class='info'>
                               <h1 class='title'>Productos tóxicos</h1>
                               <p class='description text-justify'>Son muchos los productos a los que la exposición del organismo, puntual o continuo, puede resultar en un serio riesgo para la salud. La contaminación ambiental de las ciudades está considerada como uno de los factores.</p>
-                              <!--<div class="main-text-button">
-                                  <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                              </div>-->
                             </div>
                         </div>
                     </div>
@@ -345,9 +327,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             <div class='info'>
                               <h1 class='title'>Actividad social</h1>
                               <p class='description text-justify'>las relaciones sociales son un aspecto fundamental para la salud y, en consecuencia, para un envejecimiento saludable. El aislamiento social puede llevar a un deterioro gradual de las capacidades físicas y mentales</p>
-                              <!--<div class="main-text-button">
-                                  <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                              </div>-->
                             </div>
                         </div>
                     </div>
@@ -357,8 +336,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
         </div>
     </section>
     <!-- ***** Menu Area Ends ***** -->
-
-    <!-- ***** Resources Area Starts ***** -->
+    <!-- ***** chefs Area Starts ***** -->
     <section class="section" id="chefs">
         <div class="container">
             <div class="row">
@@ -425,7 +403,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
         </div>
     </section>
     <!-- ***** Area Ends ***** -->
-
     <!-- ***** Menu Area Starts ***** -->
     <section class="section" id="offers">
         <div class="container">
@@ -735,7 +712,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                 
                 <div class="modal-body">
                   <form class="text-center align-content-center">
-                    <div class="sketchfab-embed-wrapper ml-auto"> <iframe class="models" title="Cigomático/Zygomatic bone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2f28f3a686d84b69b3a36b9e1cf781b4/embed?ui_theme=dark" width="640" height="480"> </iframe> </div>
+                    <div class="sketchfab-embed-wrapper ml-auto"> <iframe class="models" title="Cigomático/Zygomatic bone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2f28f3a686d84b69b3a36b9e1cf781b4/embed?ui_theme=dark" width="300" height="250"> </iframe> </div>
                   </form>
                 </div>
                 
@@ -815,7 +792,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                 
                 <div class="modal-body">
                   <form class="text-center align-content-center">
-                    <div class="sketchfab-embed-wrapper ml-auto"> <iframe class="models" title="Cigomático/Zygomatic bone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/16b6701d80804c18ab32673c38902a70/embed?autostart=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1" width="640" height="480"> </iframe> </div>
+                    <div class="sketchfab-embed-wrapper ml-auto"> <iframe class="models" title="Cigomático/Zygomatic bone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/16b6701d80804c18ab32673c38902a70/embed?autostart=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1" width="300" height="250"> </iframe> </div>
                   </form>
                 </div>
                 
@@ -881,7 +858,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                                 <?php if (isset($_GET['errorcontact'])) { ?>
                                     <div class="alert alert-danger">*Todos los campos son obligatorios.</div>
                                 <?php } ?>
-                                <h4>Informes/Consultas</h4>
+                                <h4>Informes</h4>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
@@ -890,12 +867,12 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo" required="">
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo*" required="">
                             </fieldset>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                                <input name="phone" type="number" id="phone" placeholder="Número celular*" required="">
+                                <input name="phone" type="tel" id="phone" placeholder="Número celular*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
@@ -952,11 +929,8 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.389688495705!2d-91.8222444501096!3d18.64650117011648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f1079ac201e06b%3A0xc46cb29d9903f45a!2sHospital%20General!5e0!3m2!1ses-419!2smx!4v1679614857173!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-        
     </section>
     <!-- ***** Reservation consultings Area Ends ***** -->
-
     <!--***** Start area admin****-->
     <section id="admin">
     <?php
@@ -1033,12 +1007,8 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                     </tbody>
                   </table>
 
-            </div>
-            
-          
-        </div>
-
-        
+            </div>       
+        </div>   
       </section>
 
     <!--***** End area admin****-->
@@ -1198,9 +1168,9 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
 
                             <li class="scroll-to-section ml-0 mr-0">
                                 <div id="formId" class="form-inline ml-0 mr-0" >
-                                    <input id="searchInputId" class="form-control search ml-0 mr-0 searchclass" type="search" placeholder="Buscar" aria-label="Search" style="width: 10rem;" onkeyup="SearchList();">
+                                    <input id="searchInputId" class="form-control search mt-1 ml-0 mr-0 searchclass" type="search" placeholder="Buscar..." aria-label="Search" style="width: 10rem;" onkeyup="SearchList();">
                                     
-                                    <button id="botonSearchId" class="btn color ml-0 mr-0" type="button" onclick="SearchList();"><i class="fa fa-search"></i></button>
+                                    <!--<button id="botonSearchId" class="btn color ml-0 mr-0" type="button" onclick="SearchList();"><i class="fa fa-search"></i></button>-->
                                 </div>
                             </li>
                             <li class="scroll-to-section">
@@ -1439,7 +1409,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
     </section>
     <!-- ***** Menu Area Ends ***** -->
 
-    <!-- ***** Resources Area Starts ***** -->
+    <!-- ***** chefs Area Starts ***** -->
     <section class="section" id="chefs">
         <div class="container">
             <div class="row">
@@ -1507,7 +1477,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
     </section>
     <!-- ***** Area Ends ***** -->
 
-    <!-- ***** Menu Area Starts ***** -->
     <section class="section" id="offers">
         <div class="container">
             <div class="row">
@@ -1896,7 +1865,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                 
                 <div class="modal-body">
                   <form class="text-center align-content-center">
-                    <div class="sketchfab-embed-wrapper ml-auto"> <iframe class="models" title="Cigomático/Zygomatic bone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/16b6701d80804c18ab32673c38902a70/embed?autostart=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1" width="640" height="480"> </iframe> </div>
+                    <div class="sketchfab-embed-wrapper ml-auto"> <iframe class="models" title="Cigomático/Zygomatic bone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/16b6701d80804c18ab32673c38902a70/embed?autostart=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1" width="300" height="250"> </iframe> </div>
                   </form>
                 </div>
                 
@@ -1962,7 +1931,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                                 <?php if (isset($_GET['errorcontact'])) { ?>
                                     <div class="alert alert-danger">*Todos los campos son obligatorios.</div>
                                 <?php } ?>
-                                <h4>Informes/Consultas</h4>
+                                <h4>Informes</h4>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
@@ -1971,12 +1940,12 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo" required="">
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo*" required="">
                             </fieldset>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                                <input name="phone" type="number" id="phone" placeholder="Número celular*" required="">
+                                <input name="phone" type="tel" id="phone" placeholder="Número celular*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
@@ -2033,7 +2002,6 @@ if(isset($_SESSION['id']) && isset($_SESSION['name'])){
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.01878398192!2d-92.22767285011001!3d18.61822487097882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f1cf4d0416007f%3A0x7d1f047111e79745!2sUniversidad%20Tecnol%C3%B3gica%20de%20Campeche!5e0!3m2!1ses-419!2smx!4v1679094654138!5m2!1ses-419!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
         
     </section>
     <!-- ***** Reservation consultings Area Ends ***** -->

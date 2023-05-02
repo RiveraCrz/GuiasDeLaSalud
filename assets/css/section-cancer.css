@@ -1057,27 +1057,27 @@ menu
 
 /*
 ---------------------------------------------
-ResourcesID
+chefsID
 ---------------------------------------------
 */
 
-#ResourcesID {
+#chefsID {
   padding-top: 120px;
 }
 
-#ResourcesID .section-heading {
+#chefsID .section-heading {
   margin-bottom: 70px;
 }
 
-#ResourcesID .section-heading h6 {
+#chefsID .section-heading h6 {
   padding-left: 0px;
 }
 
-#ResourcesID .section-heading h6:before {
+#chefsID .section-heading h6:before {
   display: none;
 }
 
-#ResourcesID .chef-item {
+#chefsID .chef-item {
   text-align: center;
   border: 1px solid #afafaf;
   padding: 5px;
@@ -1085,25 +1085,25 @@ ResourcesID
   border-radius: 3px;
 }
 
-#ResourcesID .chef-item:hover {
+#chefsID .chef-item:hover {
   border-color: #ff2e63;
 }
 
-#ResourcesID .chef-item:hover .down-content h4 {
+#chefsID .chef-item:hover .down-content h4 {
   color: #ff2e63;
 }
 
-#ResourcesID .chef-item .thumb {
+#chefsID .chef-item .thumb {
   position: relative;
 }
 
-#ResourcesID .chef-item .thumb img {
+#chefsID .chef-item .thumb img {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-#ResourcesID .chef-item .thumb .overlay {
+#chefsID .chef-item .thumb .overlay {
   position: absolute;
   background-color: #2a2a2a;
   border-radius: 3px;
@@ -1117,7 +1117,7 @@ ResourcesID
   transition: all .3s;
 }
 
-#ResourcesID .chef-item .thumb ul.social-icons {
+#chefsID .chef-item .thumb ul.social-icons {
   position: absolute;
   z-index: 11;
   top: 50%;
@@ -1129,12 +1129,12 @@ ResourcesID
   visibility: hidden;
 }
 
-#ResourcesID .chef-item .thumb ul.social-icons li {
+#chefsID .chef-item .thumb ul.social-icons li {
   display: inline-block;
   margin: 0px 5px;
 }
 
-#ResourcesID .chef-item .thumb ul.social-icons li a {
+#chefsID .chef-item .thumb ul.social-icons li a {
   width: 40px;
   height: 40px;
   background-color: #fff;
@@ -1146,32 +1146,32 @@ ResourcesID
   transition: all .5s;
 }
 
-#ResourcesID .chef-item .thumb ul.social-icons li a:hover {
+#chefsID .chef-item .thumb ul.social-icons li a:hover {
   background-color: #ff2e63;
 }
 
-#ResourcesID .chef-item:hover .overlay {
+#chefsID .chef-item:hover .overlay {
   opacity: .9;
   visibility: visible;
 }
 
-#ResourcesID .chef-item:hover ul.social-icons {
+#chefsID .chef-item:hover ul.social-icons {
   opacity: 1;
   visibility: visible;
 }
 
-#ResourcesID .chef-item .down-content {
+#chefsID .chef-item .down-content {
   padding: 20px 0px;
 }
 
-#ResourcesID .chef-item .down-content h4 {
+#chefsID .chef-item .down-content h4 {
   transition: all .3s;
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
 }
 
-#ResourcesID .chef-item .down-content span {
+#chefsID .chef-item .down-content span {
   font-size: 14px;
   color: #2a2a2a;
 }
@@ -1560,7 +1560,7 @@ responsive
     margin-left: 0px;
     margin-top: 30px;
   }
-  #ResourcesID .chef-item {
+  #chefsID .chef-item {
     margin-bottom: 30px;
   }
   #reservation .phone {

@@ -325,7 +325,7 @@ session_start();
     </section>
     <!-- ***** Menu Area Ends ***** -->
 
-    <!-- ***** Resources Area Starts ***** -->
+    <!-- ***** chefs Area Starts ***** -->
     <section class="section" id="chefs">
         <div class="container">
             <div class="row">
